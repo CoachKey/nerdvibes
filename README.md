@@ -1,0 +1,1 @@
+1st project with The Odin project where we are building a site from scratch. 
