@@ -163,21 +163,15 @@ img {
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    margin-top: 60px;
-}
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    color: aliceblue;
+  }
 
 .footer {
     background-color: black;
 }
 
-.footer  ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-    font-size: 20px;
-}
+
 
