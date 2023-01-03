@@ -1,0 +1,45 @@
+body {
+    background-image: url("janos-venczak-EmDe2QylecI-unsplash.jpg");
+    background-size: cover;
+}
+
+.header_logo {
+    height: 3rem;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header {
+    background-color: black;
+    height: 90vh;
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 50px;
+    background-image: url("senad-palic-Qcefx5xENeA-unsplash.jpg");
+    background-size: 64rem;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 90% 48%;
+}
+
+.header_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_box {
+    color: white;
+}
+
+.header_main_nav {
+  display: flex;
+  gap: 30px;
+  margin-right: 70px;
+  font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+

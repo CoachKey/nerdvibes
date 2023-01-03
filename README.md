@@ -1,1 +1,1 @@
-1st project with The Odin project where we are building a site from scratch. 
+1st project with The Odin project where we are building a site from scratch. TOP provides us with a layout and then we attempt to code the layout as close as possible.
