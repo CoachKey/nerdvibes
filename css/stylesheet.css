@@ -43,3 +43,141 @@ a {
     text-decoration: none;
 }
 
+.header_box {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    text-align: left;
+}
+
+.header_box h1 {
+    font-size: 6rem;
+    color: red;
+    margin-bottom: 1.2rem;
+}
+
+.header_box h2 {
+    font-size: 1.7rem;
+}
+
+.header_main_nav li a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 8px;
+ }
+
+a:hover, 
+a:active {
+    border-bottom: 2px solid blue;
+}
+
+.btn {
+    font-size: 1.7rem;
+    margin-top: 100px;
+}
+
+a.btn:hover, a.btn:active {
+    background-position: 100%;
+    color: white;
+    transform: translatex(1rem);
+}
+
+a.btn:link, a.btn:visited  {
+    width: 200px;
+    display: block;
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+    padding: 1.6rem;
+    font-weight: 500;
+
+    background-size: 250%;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, blue 50%);
+    transition:  all .4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    margin-bottom: 32px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    height: 500px;
+    width: 1700px;
+    background-color: black;
+    margin-top: 5rem;
+    margin-left: 90px;
+  }
+  
+  .info {
+    max-width: 200px;
+    color: white;
+  }
+
+ .text {
+    margin-left: 50px;
+    font-size: 25px;
+ } 
+
+ .clubs {
+    color: white;
+    text-align: center;
+    width: 1700px;
+    margin-top: 90px;
+    margin-bottom: -90px;
+    margin-left: 90px;
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: 300px;
+    background-color: black;
+ }
+
+
+.quote {
+    color: blue;
+    text-align: center;
+    width: 1700px;
+    height: 100px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 300px;
+    background-color: black; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 20px;
+}
+
