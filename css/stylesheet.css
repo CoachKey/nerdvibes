@@ -180,6 +180,10 @@ img {
     margin: 50px;
   } 
 
+  .blue-div {
+    margin-bottom: 70px;
+  }
+
   /* SIGN UP BUTTON */
   .signup-btn {
     border: none;
